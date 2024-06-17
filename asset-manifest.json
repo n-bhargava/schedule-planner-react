@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/schedule-planner-react/static/css/main.53574ac3.css",
-    "main.js": "/schedule-planner-react/static/js/main.ae780c29.js",
+    "main.js": "/schedule-planner-react/static/js/main.bccec850.js",
     "static/media/Amiri-Regular.ttf": "/schedule-planner-react/static/media/Amiri-Regular.fbc5807f36683184655a.ttf",
     "static/media/Amiri-Bold.ttf": "/schedule-planner-react/static/media/Amiri-Bold.f400a986bf36125810b4.ttf",
     "static/media/PlayfairDisplaySC-Bold.ttf": "/schedule-planner-react/static/media/PlayfairDisplaySC-Bold.0f9e5e3cb0f1877cdb1c.ttf",
@@ -10,10 +10,10 @@
     "static/media/anotherbanner.jpg": "/schedule-planner-react/static/media/anotherbanner.f8ad5df15dd01daa82a8.jpg",
     "index.html": "/schedule-planner-react/index.html",
     "main.53574ac3.css.map": "/schedule-planner-react/static/css/main.53574ac3.css.map",
-    "main.ae780c29.js.map": "/schedule-planner-react/static/js/main.ae780c29.js.map"
+    "main.bccec850.js.map": "/schedule-planner-react/static/js/main.bccec850.js.map"
   },
   "entrypoints": [
     "static/css/main.53574ac3.css",
-    "static/js/main.ae780c29.js"
+    "static/js/main.bccec850.js"
   ]
 }
