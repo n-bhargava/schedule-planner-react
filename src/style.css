@@ -1,0 +1,762 @@
+/* reset code */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ My code :) 
+ 
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+@font-face {
+    src: url(fonts/Amiri-Bold.ttf);
+    font-family: amiri-bold;
+}
+
+@font-face {
+    src: url(fonts/Amiri-Regular.ttf);
+    font-family: amiri;
+}
+
+@font-face {
+    src: url(fonts/PlayfairDisplaySC-Bold.ttf);
+    font-family: play-bold;
+}
+
+@font-face {
+    src: url(fonts/PlayfairDisplaySC-Regular.ttf);
+    font-family: play;
+}
+
+* {
+    text-decoration: none;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 150px;
+}
+
+.image {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h6 {
+    display: block;
+    font-size: 0.9em;
+    margin-bottom: 2.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header .img-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    width: 20%;
+    display: table
+}
+
+.vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .header-brand {
+    font-family: play-bold;
+    font-size: 30px;
+    font-weight: 900;
+    color: #111;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+header nav ul li {
+    display: inline-block;
+    /*float: left*/
+    list-style: none;
+    padding: 0 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+header nav ul li a {
+    font-family: play;
+    font-size: 20px;
+    font-weight: 500;
+    color: #111;
+}
+
+@media only screen and (min-width: 700px) {
+    header .img-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        width: 7%;
+        display: table
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    header {
+        background-color: #fff;
+        width: 100%;
+        height: 130px;
+    }
+
+    header .img-logo {
+        margin: 13px;
+        float: right;
+        padding: 15px 20px 15px 20px;
+        width: 7%;
+    }
+
+    .image {
+        background-color: #fff;
+        width: 100%;
+        height: 0;
+    }
+
+    header .header-brand {
+        margin: 52px 20px 52px 0px;
+        text-align: left;
+        padding: 0px 20px 0px 20px;
+        border-right: 3px solid #111;
+        float: left;
+    }
+
+    header nav ul {
+        margin: 35px 0px 0px 0px;
+        float: left;
+    }
+
+    header nav ul li {
+        float: left;
+        padding: 0 30px;
+        padding-top: 0px;
+        padding-bottom: 00px;
+    }
+
+    header nav ul li a {
+        float: left;
+        font-family: play;
+        font-size: 20px;
+        font-weight: 500;
+        color: #111;
+        line-height: 60px;
+    }
+
+
+
+
+}
+
+/* INDEX */
+
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 400px);
+    background-image: url('images/anotherbanner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table
+}
+
+.vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index-banner h2 {
+    font-family: amiri;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 48px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+
+}
+
+.index-banner h1 {
+    font-family: amiri;
+    font-size: 22px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 5px 5px 8px #111;
+    padding-top: 15px;
+
+}
+
+.index-boxlink {
+    margin: 25px;
+    width: calc(100% - 50px);
+    height: 100px;
+    background-color: #E5F7FF;
+
+}
+
+.index-link div h3 {
+    font-family: amiri;
+    font-size: 38px;
+    font-weight: 100;
+    line-height: 100px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 8px #031a44;
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .index-banner {
+        width: 100%;
+        height: calc(100vh - 260px);
+        background-image: url('images/anotherbanner.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: table
+    }
+
+    .chart {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #printButton {
+        display: none;
+    }
+
+    #piechart {
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 200% !important;
+        height: 400px !important;
+        margin: 0 auto !important;
+    }
+
+
+    #chart_wrap {
+        position: relative;
+        padding-bottom: 100%;
+        height: 0;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    #schoolHours {
+        width: 100%;
+    }
+
+    #homeworkHours1 {
+        width: 100%;
+    }
+
+    #homeworkHours2 {
+        width: 100%;
+    }
+
+    #homeworkHours3 {
+        width: 100%;
+    }
+
+    #homeworkHours4 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .chart {
+        width: 100%;
+        min-height: 450px;
+        margin: 0 auto;
+    }
+}
+
+.container,
+.container-chart {
+    background: #d3e5ff;
+    border: 2px solid #111;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 0 25px 0;
+
+}
+
+
+.container-1 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 0 25px 0;
+
+}
+
+.container h3 {
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+    margin-right: 3%;
+    font-size: 25px;
+    padding: 0 0 10px 0;
+}
+
+.form-check-input {
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+    padding: 0px 0 10px 0;
+}
+
+
+.form-check-label {
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+    margin-right: 3%;
+    padding: 0 0 10px 0;
+}
+
+.form-check {
+    margin: 0 50px 0 50px;
+    padding: 20px 20px 0 20px;
+    border: 1px solid black;
+
+}
+
+
+.range-slider__tooltip__label {
+    font-family: amiri;
+    padding: 5px 0 20px 0;
+    font-size: 20px;
+}
+
+.range-slider__tooltip {
+    left: calc(0% + 10px);
+}
+
+.dropdown {
+    font-family: amiri;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: amiri;
+    font-size: 20px;
+}
+
+option {
+    text-align: center;
+}
+
+.card-school {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.card-deck {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
+#space {
+    color: white;
+}
+
+optgroup {
+    text-align: center;
+}
+
+.chart {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.card-stats {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    font-size: 20px;
+}
+
+#card-school-living {
+    width: 625px;
+
+}
+
+
+.invisible {
+    margin: 0 auto;
+    color: white;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+}
+
+.container-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+#signatures h2 {
+    font-size: 20px;
+    display: none;
+}
+
+#student h2 {
+    margin-top: 20px;
+}
+
+#printButton {
+    width: 100%; 
+    /* align-content: center; */
+    display: block;
+    margin: auto;
+    font-size: 25px;
+}
+
+#schoolstats,
+#sleepstats,
+#extrastats {
+    display: none;
+}
+
+@media print {
+    .container {
+        display: none;
+    }
+}
+
+@media print {
+
+    .container-chart {
+        margin: 0 25px 0 35px;
+        padding: 0;
+        height: 100%;
+        border: none;
+        background-color: #d3e5ff !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        align-items: center;
+    }
+
+
+    
+    .chart { /* Ensure the chart dimensions remain the same */
+        width: 100%; /* Ensure the chart fits within the container */
+        height: auto; /* Allow the height to adjust dynamically */
+        max-width: 100%; /* Ensure the chart does not exceed its container width */
+        max-height: 100%; /* Ensure the chart does not exceed its container height */
+        page-break-inside: avoid; /* Avoid breaking the chart across pages */
+        background-color: #d3e5ff !important;
+        align-items: center;
+    }
+
+    #piechart{
+        padding: 0px;
+        margin: 0 auto;
+        width: auto;
+    }
+
+    
+
+
+}
+
+@media print {
+    #welcome,
+    #instruction {
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+}
+
+@media print {
+    #printButton, #space {
+        display: none;
+    }
+}
+
+@media print {
+    div {
+        display: grid;
+        margin: 0;
+        page-break-inside: avoid;
+    }
+}
+
+@media print {
+    #signatures h2 {
+        display: block;
+        font-size: 17px;
+    }
+
+}
+
+
+@media print {
+    .img-logo {
+        width: 10px;
+        height: 95px;
+    }
+
+    .invisible {
+        display: none;
+    }
+
+}
+
+@media print {
+
+    #extrastats {
+        display: block;
+        margin: 15px 0 0 0;
+    }
+    #schoolstats,
+    #sleepstats {
+        display: block;
+        
+    }
+}
+
+@media print {
+    nav {
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+}
+
+@media print {
+
+    .card-deck{
+        width: 100%;
+        background-color: #d3e5ff !important;
+        margin-top: 0;
+    }
+
+    .card-stats {
+        font-size: 17px;
+        background-color: #d3e5ff !important;
+        margin-top: 0;
+    }
+
+}
+
+@page {
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
