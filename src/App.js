@@ -339,12 +339,12 @@ function App() {
         </a>
       </header>
       <header>
-        <a class="header-brand">SCHEDULE PLANNER</a>
+        <a href="https://www.fcusd.org/vdlhs" class="header-brand">SCHEDULE PLANNER</a>
         <nav>
           <ul>
-            <li><a>School</a></li>
-            <li><a>ECs</a></li>
-            <li><a>Other</a></li>
+            <li><a href="https://www.fcusd.org/vdlhs">School</a></li>
+            <li><a href="https://www.fcusd.org/vdlhs">ECs</a></li>
+            <li><a href="https://www.fcusd.org/vdlhs">Other</a></li>
           </ul>
         </nav>
       </header>
