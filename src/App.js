@@ -415,21 +415,3 @@ function App() {
 }
 
 export default App;
-
-
-// import './App.css'
-// import { HashRouter as Router, Routes, Route } from 'react-router-dom'
-// import Home from './Home'
-// import Planner from './Planner'
-
-// function App(){
-//   <Planner />
-//   // <Router>
-//   //   <Routes>
-//   //     <Route path="/" element={ <Planner/> } />
-//   //     <Route path="/planner" element={ <Planner/> } />
-//   //   </Routes>
-//   // </Router>
-// }
-
-// export default App;
